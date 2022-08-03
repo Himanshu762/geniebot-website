@@ -12,37 +12,59 @@
 </head>
 
 <body style="background:linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url('assets/img/bg.jpg');">
+	<div class="loader">
+        <link rel="stylesheet" href="assets/css/loader.css">
+        <span>GEN!E</span>
+        <span>GEN!E</span>
+    </div>
     <h1 class="text-center text-white d-none d-lg-block site-heading"><span class="text-primary site-heading-upper mb-3">It's time to use Gen!e in your server.&nbsp;</span><span class="site-heading-lower">Gen!e Bot</span></h1>
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark py-lg-4" id="mainNav">
-        <div class="container"><a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">Gen!e</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container toggleWrapper"><a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">Gen!e</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="feature.html">Features</a></li>
                     <li class="nav-item"><a class="nav-link" href="command.html">Commands</a></li>
                 </ul>
+                <link rel="stylesheet" href="assets/css/toggle.css">
+                <input type="checkbox" class="dn" id="dn">
+                <label for="dn" class="toggle">
+                    <span class="toggle__handler">
+                        <span class="crater crater--1"></span>
+                        <span class="crater crater--2"></span>
+                        <span class="crater crater--3"></span>
+                    </span>
+                    <span class="star star--1"></span>
+                    <span class="star star--2"></span>
+                    <span class="star star--3"></span>
+                    <span class="star star--4"></span>
+                    <span class="star star--5"></span>
+                    <span class="star star--6"></span>
+                </label>
             </div>
         </div>
     </nav>
     <section class="page-section clearfix">
         <div class="container">
             <div class="intro">
-                <div class="text-center intro-text p-5 rounded bg-faded">
-                    <h2 class="section-heading mb-4"><span class="section-heading-upper">Gen!e Bot</span><span class="section-heading-lower">Ur wish is our command</span></h2>
-                    <p class="mb-3">AIO is a multi-purpose bot ready to skill up and boost up your Discord Server.<br>Also features auto-moderation, administration, music and much more!</p>
-                    <div class="mx-auto intro-button"><a class="btn btn-primary d-inline-block mx-auto btn-xl" role="button" href="https://discord.com/api/oauth2/authorize?client_id=931471764444315659&permissions=8&scope=bot">Add us to your server now!!</a></div>
+                <div class="text-center intro-text p-5 rounded" >
+                    <h2 class="section-heading mb-4"><span class="section-heading-upper text-white">Gen!e Bot</span><span class="section-heading-lower text-white">Ur wish is our command</span></h2>
+                    <p class="mb-3 text-white">Gen!e is a multi-purpose bot ready to skill up and boost up your Discord Server.<br>Also features auto-moderation, administration, music and much more!</p>
+                    <link rel="stylesheet" href="assets/css/button.css">
+                    <button data-text="Awesome" class="button" href="https://discord.com/api/oauth2/authorize?client_id=931471764444315659&permissions=8&scope=bot">
+                        <span class="actual-text">&nbsp;Add us to your server now!!&nbsp;</span>
+                        <span class="hover-text" aria-hidden="true">&nbsp;Add us to your server now!!&nbsp;</span>
+                    </button>
                 </div>
             </div>
         </div>
-    </section>
-    <section>
-    <footer class="text-center footer text-faded py-5">
-        <div class="container">
-            <p class="m-0 small">Copyright&nbsp;©&nbsp;Gen!e Bot 2022</p>
-        </div>
-    </footer>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/current-day.js"></script>
+        <footer class="text-center footer text-faded py-5">
+            <div class="container">
+                <p class="m-0 small">Copyright&nbsp;©&nbsp;Gen!e Bot 2022</p>
+            </div>
+        </footer>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/current-day.js"></script>
     </section>
 </body>
 
