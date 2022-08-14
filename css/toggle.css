@@ -28,7 +28,7 @@
   bottom: 0;
   background-color: #f4f4f5;
   -webkit-transition: .4s;
-  transition: .4s;
+  transition: background 0.2s linear;
   border-radius: 30px;
 }
 
@@ -47,14 +47,18 @@
   ;
  -webkit-transition: .4s;
   ;
- transition: .4s;
+ transition: background 0.2s linear;
 }
 
-input:checked + .body {
+body.dark {
+  background-color: #292c35;
+}
+
+input:checked + .switch {
   background-color: #09090a;
 }
 
-input:checked + .body:before {
+input:checked + .switch:before {
   left: calc(100% - (var(--size-of-icon,1.4em) + var(--slider-offset,0.3em)));
   background: #ffffff;
   /* change the value of second inset in box-shadow to change the angle and direction of the moon  */
